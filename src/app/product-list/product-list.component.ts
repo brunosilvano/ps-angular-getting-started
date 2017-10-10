@@ -40,7 +40,8 @@ export class ProductListComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
+    console.log('In OnInit');
   }
 
 }
